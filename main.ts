@@ -17,7 +17,7 @@ export default class LastAccessedVisualizerPlugin extends Plugin {
 		await this.loadSettings();
 
 		// This creates an icon in the left ribbon.
-		const ribbonIconEl = this.addRibbonIcon('dice', 'Last Accessed Visualizer', (evt: MouseEvent) => {
+		const ribbonIconEl = this.addRibbonIcon('brain', 'Last Accessed Visualizer', (evt: MouseEvent) => {
 			// Called when the user clicks the icon.
 			new Notice('This is a notice!');
 		});
